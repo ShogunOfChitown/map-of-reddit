@@ -45,7 +45,7 @@
         :query="appState.query"
       ></typeahead>
     </form>
-    <a href='#' @click.prevent='onImproveClick' class='accent improve'>Improve this map</a>
+    <a href='#' @click.prevent='onImproveClick' class='accent improve'>Only Shogun can Improve this map</a>
     <transition name='slide-bottom'>
       <small-preview v-if="smallPreview" :name="smallPreview" class="small-preview"></small-preview>
     </transition>
